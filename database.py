@@ -1,7 +1,7 @@
 import sqlite3
 import geolocation
 
-conn = sqlite3.connect('botalka/DB.db')
+conn = sqlite3.connect('DB.db')
 cursor = conn.cursor()
 subject_dict = {'Математика': 0, 'Русский язык': 1, 'Физика': 2, 'Информатика': 3, 'Литература': 4, 'Биология': 5,
                 'Химия': 6, 'География': 7}
